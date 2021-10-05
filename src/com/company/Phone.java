@@ -2,12 +2,12 @@ package com.company;
 
 public class Phone {
 
-    private String os;
-    private int ram;
-    private String brand;
-    private String processor;
-    private double screenSize;
-    private int battery;
+    private final String os;
+    private final int ram;
+    private final String brand;
+    private final String processor;
+    private final double screenSize;
+    private final int battery;
 
     public Phone(String os, int ram, String brand, String processor, double screenSize, int battery) {
         this.os = os;
